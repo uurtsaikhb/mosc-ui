@@ -1,3 +1,31 @@
-node_modules/
-DS_Store
-.idea/*
+# Temp and project files
+.DS_Store
+.buildpath
+.project
+.rbx
+.settings
+.idea
+.idea/
+.brackets.json
+nbproject
+Thumbs.db
+Desktop.ini
+version.txt
+
+# Specific file types
+*.iml
+*.lock
+
+# Build Caches and artifacts
+.sass-cache/
+node_modules
+dist
+target
+
+# Log files
+npm-debug.log
+
+# Test directories
+coverage
+
+# Others
