@@ -1,0 +1,28 @@
+<div class="content">
+    <div class="login">
+        <form ng-submit="vm.login()">
+            <div class="input-group">
+                <span class="input-group-addon"> Username </span>
+                <input type="text"
+                       class="form-control"
+                       required
+                       ng-model="vm.username"
+                       placeholder="Enter your email here">
+            </div>
+            <br>
+            <div class="input-group">
+                <span class="input-group-addon"> Password </span>
+                <input type="password"
+                       class="form-control"
+                       required
+                       ng-model="vm.password"
+                       placeholder="Enter your email here">
+            </div>
+            <br>
+            <button type="type"
+                    class="btn btn-primary btn-md btn-block">
+                Login
+            </button>
+        </form>
+    </div>
+</div>

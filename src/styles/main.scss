@@ -1,0 +1,31 @@
+body {
+    background-color: powderblue;
+}
+
+.header {
+    background: white;
+    height: 60px;
+
+    .title {
+        color: #a8a8a8;
+        font-size: 24px;
+    }
+}
+.container {
+
+}
+
+.content {
+    background: white;
+    height: 100%;
+}
+
+.login {
+    width: 50%;
+    margin: 0 auto;
+    background: white;
+    
+    input {
+        display: block;
+    }
+}

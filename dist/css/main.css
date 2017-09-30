@@ -1,0 +1,20 @@
+body {
+  background-color: powderblue; }
+
+.header {
+  background: white;
+  height: 60px; }
+  .header .title {
+    color: #a8a8a8;
+    font-size: 24px; }
+
+.content {
+  background: white;
+  height: 100%; }
+
+.login {
+  width: 50%;
+  margin: 0 auto;
+  background: white; }
+  .login input {
+    display: block; }
