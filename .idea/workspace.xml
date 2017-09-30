@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be0a18d-5b11-41f5-b087-45b88d0d546b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/mosc-portal.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/js/scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/header/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/home/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/views/login/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/services/LoginService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/views/header/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/views/header/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/views/home/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/views/home/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/views/login/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/views/login/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -241,12 +214,12 @@
       <workItem from="1506775784098" duration="1319000" />
       <workItem from="1506799586581" duration="3435000" />
       <workItem from="1506806592023" duration="1217000" />
-      <workItem from="1506807968849" duration="4913000" />
+      <workItem from="1506807968849" duration="4980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16383000" />
+    <option name="totallyTimeSpent" value="16450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="22" width="1334" height="1130" extended-state="0" />
@@ -576,7 +549,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding />
         </state>
       </provider>
