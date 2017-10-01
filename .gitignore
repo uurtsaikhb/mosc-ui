@@ -8,6 +8,7 @@
 .idea/
 .idea/workspace.xml
 .brackets.json
+.editorconfig
 nbproject
 Thumbs.db
 Desktop.ini
