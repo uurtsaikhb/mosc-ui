@@ -3,6 +3,7 @@
         <div class="title">
             <h4> Sign into your account</h4>
         </div>
+
         <form ng-submit="vm.login()">
             <div class="input-group">
                 <span class="input-group-addon"> Email </span>
@@ -22,10 +23,18 @@
                        placeholder="Enter your email here">
             </div>
             <br>
+            <div class="input-group">
+                <label class="remember">
+                    <input type="checkbox" ng-model="vm.remember">
+                    <span>Remember me on this computer</span>
+                </label>
+            </div>
+            <br>
             <button type="type"
                     class="btn btn-primary btn-md btn-block">
                 Login
             </button>
         </form>
+
     </div>
 </div>

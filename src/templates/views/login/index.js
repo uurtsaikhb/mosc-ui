@@ -1,22 +1,22 @@
 (function () {
-
     module.exports = Controller;
 
     function Controller ($location, dao) {
         var vm = this;
 
         vm.login = function () {
-            debugger
             var credentials = {
                 username: vm.loginValue,
                 password: vm.password
             };
 
-
             dao.login(credentials)
                 .then(function (response) {
-                    console.log(response);
-                    $location.url('/dashboard');
+                    if (response.status === 200) {
+	                    $location.url('/dashboard');
+                    } else {
+	                    $location.url('/login');
+                    }
                 })
                 .catch(function (response) {
                     console.log(response)

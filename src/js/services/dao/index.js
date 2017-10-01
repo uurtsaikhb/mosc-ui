@@ -1,7 +1,7 @@
 (function () {
-	"use strict";
+    "use strict";
 
-	angular.module('moscApp')
-		.factory('dao', require('./dao'));
+    angular.module('moscApp')
+        .factory('dao', require('./dao'));
 
 })();

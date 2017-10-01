@@ -1,3 +1,5 @@
+$textColor: gray;
+
 @media screen and (min-width: 768px) {
 	@import 'main';
 }
@@ -23,6 +25,18 @@
 				color: gray;
 				padding-bottom: 15px;
 				text-align: center;
+			}
+		}
+
+		.remember {
+			input {
+				display: inline;
+			}
+
+			span {
+				font-size: 13px;
+				color: $textColor;
+				font-weight: 400;
 			}
 		}
 	}
