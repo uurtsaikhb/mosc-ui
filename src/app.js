@@ -16,6 +16,7 @@
          * load services
          */
         require('./js/services/dao');
+        require('./js/directives/loading-indicator');
 
         angular.element(document).ready(function () {
             angular.bootstrap(document, ['moscApp'], { strictDi: false });

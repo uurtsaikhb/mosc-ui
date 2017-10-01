@@ -38,6 +38,9 @@ gulp.task('script', function () {
         .pipe(browserify({
             insertGlobal: true,
             debug: true
+        }).on('error', function (err) {
+	        console.log(err.toString());
+	        this.emit('end');
         }))
         .pipe(gulp.dest('./dist/js'))
 });

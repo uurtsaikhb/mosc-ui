@@ -41,3 +41,13 @@ $textColor: gray;
 		}
 	}
 }
+
+.loading-indicator {
+    position: absolute;
+    background: $background-grey url('#{$images-path}loading-indicator.gif') no-repeat center center / 32px 32px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    z-index: 4;
+    @include transition('opacity 250ms');
+}
