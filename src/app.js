@@ -12,6 +12,11 @@
 			console.log('app running...')
 		});
 
+		/**
+		 * load services
+		 */
+		require('./js/services/dao');
+
 		angular.element(document).ready(function () {
 			angular.bootstrap(document, ['moscApp'], { strictDi: false });
 		});

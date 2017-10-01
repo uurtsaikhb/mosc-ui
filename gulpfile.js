@@ -11,7 +11,11 @@ var devMode = false;
 
 gulp.task('sass', function () {
 	gulp.src('./src/styles/**/*.scss')
-		.pipe(sass.sync().on('error', sass.logError))
+		.pipe(sass.sync()
+			.on('error', function (err) {
+				console.log(err.toString());
+				this.emit('end');
+			}))
 		.pipe(concat('main.css'))
 		.pipe(gulp.dest('./dist/css'))
 		.pipe(browserSync.reload({
