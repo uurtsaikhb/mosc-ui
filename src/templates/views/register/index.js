@@ -5,8 +5,13 @@
 	function Controller ($location) {
 		var vm = this;
 
-		vm.login = function () {
+
+		vm.register = function () {
+			console.log('Registering user');
+
 			$location.url('/dashboard');
+
 		}
 	}
+
 })();

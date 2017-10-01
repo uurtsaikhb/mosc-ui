@@ -29,14 +29,14 @@ gulp.task('css', function () {
 });
 
 //browserify
-// gulp.task('script', function () {
-// 	gulp.src('scr/js/app.js')
-// 		.pipe(browserify({
-// 			insertGlobal: true,
-// 			debug: true
-// 		}))
-// 		.pipe(gulp.dest('./dist/js'))
-// });
+gulp.task('script', function () {
+	gulp.src('./src/app.js')
+		.pipe(browserify({
+			insertGlobal: true,
+			debug: true
+		}))
+		.pipe(gulp.dest('./dist/js'))
+});
 
 gulp.task('js', function () {
 	gulp.src(scripts)
@@ -56,7 +56,7 @@ gulp.task('html', function () {
 });
 
 gulp.task('build', function () {
-	gulp.start(['sass', 'js', 'html']);
+	gulp.start(['sass', 'script', 'html']);
 });
 
 gulp.task('browser-sync', function () {
@@ -72,7 +72,7 @@ gulp.task('start', function () {
 	devMode = true;
 	gulp.start(['build', 'browser-sync']);
 	gulp.watch(['./src/styles/**/*.scss'], ['sass']);
-	gulp.watch(['./src/**/*.js'], ['js']);
+	gulp.watch(['./src/**/*.js'], ['script']);
 	gulp.watch(['./src/templates/**/*.html'], ['html']);
 });
 

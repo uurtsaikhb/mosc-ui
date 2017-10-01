@@ -1,0 +1,63 @@
+<div class="content">
+    <div class="register">
+        <div class="title">
+            <h4> Create an account </h4>
+        </div>
+        <form ng-submit="vm.register()">
+            <div class="input-group">
+                <span class="input-group-addon"> Firstname </span>
+                <input type="text"
+                       class="form-control"
+                       required
+                       ng-model="vm.firstname"
+                       placeholder="Enter your firstname here">
+            </div>
+            <br>
+
+            <div class="input-group">
+                <span class="input-group-addon"> Lastname </span>
+                <input type="text"
+                       class="form-control"
+                       required
+                       ng-model="vm.lastname"
+                       placeholder="Enter your lastname here">
+            </div>
+            <br>
+
+            <div class="input-group">
+                <span class="input-group-addon"> Email Address</span>
+                <input type="text"
+                       class="form-control"
+                       required
+                       ng-model="vm.email"
+                       placeholder="Enter your email here">
+            </div>
+            <br>
+
+            <div class="input-group">
+                <span class="input-group-addon"> Confirm Email </span>
+                <input type="text"
+                       class="form-control"
+                       required
+                       ng-model="vm.emailVerify"
+                       placeholder="Enter your email again ">
+            </div>
+            <br>
+
+            <div class="input-group">
+                <span class="input-group-addon"> Password </span>
+                <input type="password"
+                       class="form-control"
+                       required
+                       ng-model="vm.password"
+                       placeholder="Enter your email here">
+            </div>
+            <br>
+
+            <button type="type"
+                    class="btn btn-primary btn-md btn-block">
+                Register
+            </button>
+        </form>
+    </div>
+</div>

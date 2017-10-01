@@ -20,11 +20,12 @@ body {
     height: 100%;
 }
 
-.login {
+.login,
+.register {
     width: 50%;
     margin: 0 auto;
     background: white;
-    
+
     input {
         display: block;
     }

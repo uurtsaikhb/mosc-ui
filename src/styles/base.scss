@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+	@import 'main';
+}
+
+@media screen and (min-width: 240px) and (max-width: 767px) {
+	@import 'mobile';
+}
+
+.content {
+	.login,
+	.register {
+		.input-group-addon {
+			width: 140px;
+		}
+
+		.input-group {
+			width: 100%;
+		}
+
+		.title {
+			h4 {
+				font-weight: 400;
+				color: gray;
+				padding-bottom: 15px;
+				text-align: center;
+			}
+		}
+	}
+}
