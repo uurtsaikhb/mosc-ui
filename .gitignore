@@ -6,6 +6,7 @@
 .settings
 .idea
 .idea/
+.idea/workspace.xml
 .brackets.json
 nbproject
 Thumbs.db
