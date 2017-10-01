@@ -1,11 +1,11 @@
 (function () {
 
-	module.exports = Controller;
+    module.exports = Controller;
 
-	function Controller () {
-		var vm = this;
+    function Controller () {
+        var vm = this;
 
-		vm.welcome = 'Welcome to MoSC';
-	}
+        vm.welcome = 'Welcome to MoSC';
+    }
 
 })();

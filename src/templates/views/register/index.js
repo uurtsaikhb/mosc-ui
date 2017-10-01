@@ -1,17 +1,17 @@
 (function () {
 
-	module.exports = Controller;
+    module.exports = Controller;
 
-	function Controller ($location) {
-		var vm = this;
+    function Controller ($location) {
+        var vm = this;
 
 
-		vm.register = function () {
-			console.log('Registering user');
+        vm.register = function () {
+            console.log('Registering user');
 
-			$location.url('/dashboard');
+            $location.url('/dashboard');
 
-		}
-	}
+        }
+    }
 
 })();
